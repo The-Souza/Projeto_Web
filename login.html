@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="script.js" defer></script>
+        <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <div>
+                <h1>LOGIN</h1>
+                <form id="login-form" action="#" method="post">
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            name="Email"
+                            id="email"
+                            placeholder="Enter your email..."
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password:</label>
+                        <input
+                            type="password"
+                            name="Password"
+                            id="password"
+                            placeholder="Enter your password..."
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group-links">
+                        <a href="../components/register.html">Register</a>
+                        <a href="../components/changePassword.html">Forgot Password?</a>
+                    </div>
+
+                    <div class="input-group">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

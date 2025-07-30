@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <script src="script.js" defer></script>
+        <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon" />
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div class="form-container">
+            <div>
+                <h1>REGISTRATION</h1>
+                <form id="register-form" action="#" method="post">
+                    <div class="input-group">
+                        <label for="name">Full Name:</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="ex: John Smith"
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="ex: john.smith@email.com"
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="telefone">Phone:</label>
+                        <input
+                            type="tel"
+                            name="telefone"
+                            id="telefone"
+                            placeholder="ex: (11) 91234-5678"
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password:</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="Enter your password..."
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input
+                            type="password"
+                            name="confirmPassword"
+                            id="confirm-password"
+                            placeholder="Confirm your password..."
+                            required
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
