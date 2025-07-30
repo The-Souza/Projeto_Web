@@ -124,14 +124,4 @@ Não há proteção contra:
 
 ---
 
-## 📌 Sugestões para Melhorias Futuras
-
-- Implementar backend com autenticação real (Node.js, Express, etc).
-- Criptografar senhas (ex: bcrypt).
-- Utilizar banco de dados (MongoDB, MySQL).
-- Implementar sessões ou JWT.
-- Adicionar validações mais robustas.
-
----
-
 Feito com 💻 e ☕ para fins de aprendizado.
