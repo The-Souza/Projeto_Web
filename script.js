@@ -35,7 +35,7 @@
 
                 const name = document.getElementById("name").value;
                 const email = document.getElementById("email").value;
-                const phone = document.getElementById("phone").value;
+                const telefone = document.getElementById("telefone").value;
                 const password = document.getElementById("password").value;
                 const confirmPassword =
                     document.getElementById("confirm-password").value;
@@ -47,7 +47,7 @@
 
                 console.log(`Name: ${name}`);
                 console.log(`Email: ${email}`);
-                console.log(`Phone: ${phone}`);
+                console.log(`Telefone: ${telefone}`);
                 console.log(`Password: ${password}`);
                 console.log(`Confirm Password: ${confirmPassword}`);
 
@@ -59,7 +59,7 @@
                     return;
                 }
 
-                users.push({ name, email, phone, password });
+                users.push({ name, email, telefone, password });
 
                 localStorage.setItem("users", JSON.stringify(users));
 
