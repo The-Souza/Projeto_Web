@@ -64,7 +64,7 @@
                 localStorage.setItem("users", JSON.stringify(users));
 
                 alert("Registration successful!");
-                window.location.href = "login.html";
+                window.location.href = "../login.html";
             });
         }
     });
@@ -100,7 +100,7 @@
                 localStorage.setItem("users", JSON.stringify(users));
 
                 alert("Password changed successfully!");
-                window.location.href = "login.html";
+                window.location.href = "../login.html";
             });
         }
     });
