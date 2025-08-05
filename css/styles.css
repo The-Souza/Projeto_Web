@@ -72,6 +72,7 @@ input[type="password"] {
 
 input::placeholder {
     color: #b0c7ff;
+    font-style: italic;
 }
 
 input:hover {
