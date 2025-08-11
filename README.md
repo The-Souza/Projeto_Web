@@ -1,4 +1,4 @@
-# 🛡️ Autenticação Web com HTML, CSS e JavaScript
+# 🛡️  Fomulário de login
 
 Este projeto simula um sistema de autenticação com funcionalidades de **login**, **registro** e **alteração de senha**, totalmente no **lado do cliente** utilizando `HTML`, `CSS` e `JavaScript` com armazenamento em `localStorage`.
 
